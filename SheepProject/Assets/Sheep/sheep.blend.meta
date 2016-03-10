@@ -1,0 +1,245 @@
+fileFormatVersion: 2
+guid: 5464c38de4060f6429dac81a0c9f1632
+timeCreated: 1457516368
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: body
+    100002: chest
+    100004: ear_L
+    100006: ear_R
+    100008: foot_back_L
+    100010: foot_back_R
+    100012: foot_front_L
+    100014: foot_front_R
+    100016: head
+    100018: hips
+    100020: knee_target_back_L
+    100022: knee_target_back_R
+    100024: knee_target_front_L
+    100026: knee_target_front_R
+    100028: neck
+    100030: Rig
+    100032: root
+    100034: //RootNode
+    100036: Sheep_body
+    100038: Sheep_Ear_L
+    100040: Sheep_Ear_R
+    100042: shin_back_L
+    100044: shin_back_R
+    100046: shin_front_L
+    100048: shin_front_R
+    100050: spine
+    100052: thigh_back_L
+    100054: thigh_back_R
+    100056: thigh_front_L
+    100058: thigh_front_R
+    100060: toe_back_L
+    100062: toe_back_R
+    100064: toe_front_L
+    100066: toe_front_R
+    400000: body
+    400002: chest
+    400004: ear_L
+    400006: ear_R
+    400008: foot_back_L
+    400010: foot_back_R
+    400012: foot_front_L
+    400014: foot_front_R
+    400016: head
+    400018: hips
+    400020: knee_target_back_L
+    400022: knee_target_back_R
+    400024: knee_target_front_L
+    400026: knee_target_front_R
+    400028: neck
+    400030: Rig
+    400032: root
+    400034: //RootNode
+    400036: Sheep_body
+    400038: Sheep_Ear_L
+    400040: Sheep_Ear_R
+    400042: shin_back_L
+    400044: shin_back_R
+    400046: shin_front_L
+    400048: shin_front_R
+    400050: spine
+    400052: thigh_back_L
+    400054: thigh_back_R
+    400056: thigh_front_L
+    400058: thigh_front_R
+    400060: toe_back_L
+    400062: toe_back_R
+    400064: toe_front_L
+    400066: toe_front_R
+    4300000: Sheep_body
+    4300002: Sheep_Ear_L
+    4300004: Sheep_Ear_R
+    7400000: Default Take
+    7400002: RigAction
+    7400004: Default Take0
+    9500000: //RootNode
+    13700000: Sheep_body
+    13700002: Sheep_Ear_L
+    13700004: Sheep_Ear_R
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Default Take
+      takeName: Default Take
+      firstFrame: 1
+      lastFrame: 48
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Rig
+        weight: 1
+      - path: Rig/root
+        weight: 1
+      - path: Rig/root/body
+        weight: 1
+      - path: Rig/root/body/hips
+        weight: 1
+      - path: Rig/root/body/hips/spine
+        weight: 1
+      - path: Rig/root/body/hips/spine/chest
+        weight: 1
+      - path: Rig/root/body/hips/spine/chest/neck
+        weight: 1
+      - path: Rig/root/body/hips/spine/chest/neck/head
+        weight: 1
+      - path: Rig/root/body/hips/spine/chest/neck/head/ear_L
+        weight: 1
+      - path: Rig/root/body/hips/spine/chest/neck/head/ear_R
+        weight: 1
+      - path: Rig/root/body/hips/spine/thigh_front_L
+        weight: 1
+      - path: Rig/root/body/hips/spine/thigh_front_L/shin_front_L
+        weight: 1
+      - path: Rig/root/body/hips/spine/thigh_front_R
+        weight: 1
+      - path: Rig/root/body/hips/spine/thigh_front_R/shin_front_R
+        weight: 1
+      - path: Rig/root/body/thigh_back_L
+        weight: 1
+      - path: Rig/root/body/thigh_back_L/shin_back_L
+        weight: 1
+      - path: Rig/root/body/thigh_back_R
+        weight: 1
+      - path: Rig/root/body/thigh_back_R/shin_back_R
+        weight: 1
+      - path: Rig/root/foot_back_L
+        weight: 1
+      - path: Rig/root/foot_back_L/knee_target_back_L
+        weight: 1
+      - path: Rig/root/foot_back_L/toe_back_L
+        weight: 1
+      - path: Rig/root/foot_back_R
+        weight: 1
+      - path: Rig/root/foot_back_R/knee_target_back_R
+        weight: 1
+      - path: Rig/root/foot_back_R/toe_back_R
+        weight: 1
+      - path: Rig/root/foot_front_L
+        weight: 1
+      - path: Rig/root/foot_front_L/knee_target_front_L
+        weight: 1
+      - path: Rig/root/foot_front_L/toe_front_L
+        weight: 1
+      - path: Rig/root/foot_front_R
+        weight: 1
+      - path: Rig/root/foot_front_R/knee_target_front_R
+        weight: 1
+      - path: Rig/root/foot_front_R/toe_front_R
+        weight: 1
+      - path: Sheep_body
+        weight: 1
+      - path: Sheep_Ear_L
+        weight: 1
+      - path: Sheep_Ear_R
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
